@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    /* color: #edf0f1; */
+}
+
+body {
+    /* background-color: #FF6978; */
+    background-color: #24252A;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #F4F3EE; */
+    font-size: 22px;
+    padding: 20px 5%;
+    color: #edf0f1;
+}
+
+header ul{
+    list-style: none;
+    
+}
+
+header li, header a {
+    /* color: #c79b8d; */
+    /* color: #FF5D73; */
+    text-decoration: none;
+    font-weight: 500;
+    color: #edf0f1;
+}
+
+header li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+header li a{
+    transition: all 0.3s ease 0s;
+}
+
+header li a:hover{
+    color: #0088a9;
+}
+
+/* header nav ul li #selected{
+    color: red !important;
+} */
+
+header p {
+    cursor: pointer;
+    font-weight: 700;
+    /* color: #0A3F64; */
+}
+
+header button {
+    
+    padding: 9px 25px;
+    background-color: #0088a9;
+    color: #edf0f1;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    outline: none;
+}
+
+header button:hover {
+    background-color: #00738f;
+}
+
+.main {
+    /* background-color: #09BC8A; */
+    /* background-color: rgba(9, 188, 138, 0.3); */
+    background-color: rgba(0, 0, 0, 0.2);
+    /* margin-top: 100px; */
+    margin: 0px 5%;
+    padding: 30px 20px;
+    min-height: min-content;
+    color: #edf0f1;
+    overflow-x:auto;
+}
+
+.main1 {
+    /* background-color: #09BC8A; */
+    /* background-color: rgba(9, 188, 138, 0.3); */
+    background-color: rgba(0, 0, 0, 0.2);
+    /* margin-top: 100px; */
+    margin: 5% 20%;
+    padding: 30px 20px;
+    min-height: min-content;
+    color: #edf0f1;
+}
+
+.frm {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+form input {
+    color: #edf0f1;
+}
+
+form input[type="text"], form input[type="password"]{
+    text-align: center;
+    padding: 10px;
+    margin: 1%;
+    border: 2px solid #0088a9;
+    border-radius: 20px;
+    outline: 0;
+    background-color: rgba(0, 0, 0, 0);
+    width: 250px;
+    transition: 0.25s;
+    caret-color: transparent;
+}
+
+form input[type="text"]:focus, form input[type="password"]:focus {
+    width: 300px;
+    border: 2px solid #2ecc71;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    margin: 1%;
+    border: 0;
+    outline: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #2ecc71;
+    border-radius: 20px;
+    transition: 0.25s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #2ecc71;
+}
+
+
+#empty_err {
+    color: red;
+}
+
+.selected {
+    color: #0088a9;
+}
+
+/* ::placeholder {
+    color: #edf0f1;
+} */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.entry {
+    padding: 20px 10px;
+    transition: 0.5s;
+}
+
+#entry:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.entry1 {
+    padding: 20px 10px;
+    color: #0088a9;
+}
+
+/* select#course {
+    padding: 10px
+} */
