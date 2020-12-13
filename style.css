@@ -164,7 +164,7 @@ form input[type="submit"]:hover {
     transition: 0.5s;
 }
 
-#entry:hover {
+.entry:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
